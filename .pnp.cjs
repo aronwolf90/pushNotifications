@@ -31,6 +31,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.24.8"],\
             ["@babel/preset-env", "virtual:7bb7a5cfa845504ba552e3a8413ab297f4ccf41e9b6844ab75d64796b93b7e59f2e184a3bcd68afcee351aa9e87472b275e0827e76fe612aac0c5dd9898ab1a3#npm:7.24.8"],\
             ["@babel/runtime", "npm:7.24.8"],\
+            ["@react-native-firebase/app", "virtual:7bb7a5cfa845504ba552e3a8413ab297f4ccf41e9b6844ab75d64796b93b7e59f2e184a3bcd68afcee351aa9e87472b275e0827e76fe612aac0c5dd9898ab1a3#npm:20.1.0"],\
+            ["@react-native-firebase/messaging", "virtual:7bb7a5cfa845504ba552e3a8413ab297f4ccf41e9b6844ab75d64796b93b7e59f2e184a3bcd68afcee351aa9e87472b275e0827e76fe612aac0c5dd9898ab1a3#npm:20.1.0"],\
             ["@react-native/babel-preset", "virtual:0268b0db34d01c26e28ec7fe1af5d2c3135350e1f3c878bac50712fefa4b87546c4f9ec2dc048031cb9ff712db1e74dcb0c3a3d499c6c894ee2d536388f56934#npm:0.74.85"],\
             ["@react-native/eslint-config", "virtual:7bb7a5cfa845504ba552e3a8413ab297f4ccf41e9b6844ab75d64796b93b7e59f2e184a3bcd68afcee351aa9e87472b275e0827e76fe612aac0c5dd9898ab1a3#npm:0.74.85"],\
             ["@react-native/metro-config", "npm:0.74.85"],\
@@ -3950,6 +3952,64 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@react-native-firebase/app", [\
+        ["npm:20.1.0", {\
+          "packageLocation": "./.yarn/unplugged/@react-native-firebase-app-virtual-b10d6ada5c/node_modules/@react-native-firebase/app/",\
+          "packageDependencies": [\
+            ["@react-native-firebase/app", "npm:20.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:7bb7a5cfa845504ba552e3a8413ab297f4ccf41e9b6844ab75d64796b93b7e59f2e184a3bcd68afcee351aa9e87472b275e0827e76fe612aac0c5dd9898ab1a3#npm:20.1.0", {\
+          "packageLocation": "./.yarn/unplugged/@react-native-firebase-app-virtual-b10d6ada5c/node_modules/@react-native-firebase/app/",\
+          "packageDependencies": [\
+            ["@react-native-firebase/app", "virtual:7bb7a5cfa845504ba552e3a8413ab297f4ccf41e9b6844ab75d64796b93b7e59f2e184a3bcd68afcee351aa9e87472b275e0827e76fe612aac0c5dd9898ab1a3#npm:20.1.0"],\
+            ["@types/expo", null],\
+            ["@types/react", "npm:18.3.3"],\
+            ["@types/react-native", null],\
+            ["expo", null],\
+            ["opencollective-postinstall", "npm:2.0.3"],\
+            ["react", "npm:18.2.0"],\
+            ["react-native", "virtual:7bb7a5cfa845504ba552e3a8413ab297f4ccf41e9b6844ab75d64796b93b7e59f2e184a3bcd68afcee351aa9e87472b275e0827e76fe612aac0c5dd9898ab1a3#npm:0.74.3"],\
+            ["superstruct", "npm:0.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/expo",\
+            "@types/react-native",\
+            "@types/react",\
+            "expo",\
+            "react-native",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@react-native-firebase/messaging", [\
+        ["npm:20.1.0", {\
+          "packageLocation": "./.yarn/unplugged/@react-native-firebase-messaging-virtual-51bd52f27d/node_modules/@react-native-firebase/messaging/",\
+          "packageDependencies": [\
+            ["@react-native-firebase/messaging", "npm:20.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:7bb7a5cfa845504ba552e3a8413ab297f4ccf41e9b6844ab75d64796b93b7e59f2e184a3bcd68afcee351aa9e87472b275e0827e76fe612aac0c5dd9898ab1a3#npm:20.1.0", {\
+          "packageLocation": "./.yarn/unplugged/@react-native-firebase-messaging-virtual-51bd52f27d/node_modules/@react-native-firebase/messaging/",\
+          "packageDependencies": [\
+            ["@react-native-firebase/messaging", "virtual:7bb7a5cfa845504ba552e3a8413ab297f4ccf41e9b6844ab75d64796b93b7e59f2e184a3bcd68afcee351aa9e87472b275e0827e76fe612aac0c5dd9898ab1a3#npm:20.1.0"],\
+            ["@react-native-firebase/app", "virtual:7bb7a5cfa845504ba552e3a8413ab297f4ccf41e9b6844ab75d64796b93b7e59f2e184a3bcd68afcee351aa9e87472b275e0827e76fe612aac0c5dd9898ab1a3#npm:20.1.0"],\
+            ["@types/expo", null],\
+            ["@types/react-native-firebase__app", null],\
+            ["expo", null]\
+          ],\
+          "packagePeers": [\
+            "@react-native-firebase/app",\
+            "@types/expo",\
+            "@types/react-native-firebase__app",\
+            "expo"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@react-native/assets-registry", [\
         ["npm:0.74.85", {\
           "packageLocation": "./.yarn/cache/@react-native-assets-registry-npm-0.74.85-95d20d5f4c-c5990ce438.zip/node_modules/@react-native/assets-registry/",\
@@ -5777,6 +5837,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["clone-deep", [\
+        ["npm:2.0.2", {\
+          "packageLocation": "./.yarn/cache/clone-deep-npm-2.0.2-19a359d344-c33ae31e33.zip/node_modules/clone-deep/",\
+          "packageDependencies": [\
+            ["clone-deep", "npm:2.0.2"],\
+            ["for-own", "npm:1.0.0"],\
+            ["is-plain-object", "npm:2.0.4"],\
+            ["kind-of", "npm:6.0.3"],\
+            ["shallow-clone", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:4.0.1", {\
           "packageLocation": "./.yarn/cache/clone-deep-npm-4.0.1-70adab92c8-770f912fe4.zip/node_modules/clone-deep/",\
           "packageDependencies": [\
@@ -5888,7 +5959,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/compressible-npm-2.0.18-ee5ab04d88-58321a85b3.zip/node_modules/compressible/",\
           "packageDependencies": [\
             ["compressible", "npm:2.0.18"],\
-            ["mime-db", "npm:1.53.0"]\
+            ["mime-db", "npm:1.52.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7217,6 +7288,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["for-in", [\
+        ["npm:0.1.8", {\
+          "packageLocation": "./.yarn/cache/for-in-npm-0.1.8-6a0f87e438-f5bdad7811.zip/node_modules/for-in/",\
+          "packageDependencies": [\
+            ["for-in", "npm:0.1.8"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:1.0.2", {\
+          "packageLocation": "./.yarn/cache/for-in-npm-1.0.2-37e3d7aae5-09f4ae93ce.zip/node_modules/for-in/",\
+          "packageDependencies": [\
+            ["for-in", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["for-own", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "./.yarn/cache/for-own-npm-1.0.0-d7cbccdc1b-233238f6e9.zip/node_modules/for-own/",\
+          "packageDependencies": [\
+            ["for-own", "npm:1.0.0"],\
+            ["for-in", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["foreground-child", [\
         ["npm:3.2.1", {\
           "packageLocation": "./.yarn/cache/foreground-child-npm-3.2.1-788dc2267e-3e2e844d60.zip/node_modules/foreground-child/",\
@@ -7920,6 +8017,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/is-docker-npm-2.2.1-3f18a53aff-3fef7ddbf0.zip/node_modules/is-docker/",\
           "packageDependencies": [\
             ["is-docker", "npm:2.2.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["is-extendable", [\
+        ["npm:0.1.1", {\
+          "packageLocation": "./.yarn/cache/is-extendable-npm-0.1.1-322b4649ec-3875571d20.zip/node_modules/is-extendable/",\
+          "packageDependencies": [\
+            ["is-extendable", "npm:0.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -9066,6 +9172,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["kind-of", [\
+        ["npm:5.1.0", {\
+          "packageLocation": "./.yarn/cache/kind-of-npm-5.1.0-ce82f43eaa-f2a0102ae0.zip/node_modules/kind-of/",\
+          "packageDependencies": [\
+            ["kind-of", "npm:5.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:6.0.3", {\
           "packageLocation": "./.yarn/cache/kind-of-npm-6.0.3-ab15f36220-3ab01e7b1d.zip/node_modules/kind-of/",\
           "packageDependencies": [\
@@ -9583,13 +9696,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mime-db", "npm:1.52.0"]\
           ],\
           "linkType": "HARD"\
-        }],\
-        ["npm:1.53.0", {\
-          "packageLocation": "./.yarn/cache/mime-db-npm-1.53.0-14fcdba2be-3fd9380bdc.zip/node_modules/mime-db/",\
-          "packageDependencies": [\
-            ["mime-db", "npm:1.53.0"]\
-          ],\
-          "linkType": "HARD"\
         }]\
       ]],\
       ["mime-types", [\
@@ -9722,6 +9828,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["minizlib", "npm:2.1.2"],\
             ["minipass", "npm:3.3.6"],\
             ["yallist", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["mixin-object", [\
+        ["npm:2.0.1", {\
+          "packageLocation": "./.yarn/cache/mixin-object-npm-2.0.1-adaa8c630a-7d0eb7c2f0.zip/node_modules/mixin-object/",\
+          "packageDependencies": [\
+            ["mixin-object", "npm:2.0.1"],\
+            ["for-in", "npm:0.1.8"],\
+            ["is-extendable", "npm:0.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -10097,6 +10214,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["open", "npm:7.4.2"],\
             ["is-docker", "npm:2.2.1"],\
             ["is-wsl", "npm:2.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["opencollective-postinstall", [\
+        ["npm:2.0.3", {\
+          "packageLocation": "./.yarn/cache/opencollective-postinstall-npm-2.0.3-954643c36b-0a68c5cef1.zip/node_modules/opencollective-postinstall/",\
+          "packageDependencies": [\
+            ["opencollective-postinstall", "npm:2.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -10512,6 +10638,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.24.8"],\
             ["@babel/preset-env", "virtual:7bb7a5cfa845504ba552e3a8413ab297f4ccf41e9b6844ab75d64796b93b7e59f2e184a3bcd68afcee351aa9e87472b275e0827e76fe612aac0c5dd9898ab1a3#npm:7.24.8"],\
             ["@babel/runtime", "npm:7.24.8"],\
+            ["@react-native-firebase/app", "virtual:7bb7a5cfa845504ba552e3a8413ab297f4ccf41e9b6844ab75d64796b93b7e59f2e184a3bcd68afcee351aa9e87472b275e0827e76fe612aac0c5dd9898ab1a3#npm:20.1.0"],\
+            ["@react-native-firebase/messaging", "virtual:7bb7a5cfa845504ba552e3a8413ab297f4ccf41e9b6844ab75d64796b93b7e59f2e184a3bcd68afcee351aa9e87472b275e0827e76fe612aac0c5dd9898ab1a3#npm:20.1.0"],\
             ["@react-native/babel-preset", "virtual:0268b0db34d01c26e28ec7fe1af5d2c3135350e1f3c878bac50712fefa4b87546c4f9ec2dc048031cb9ff712db1e74dcb0c3a3d499c6c894ee2d536388f56934#npm:0.74.85"],\
             ["@react-native/eslint-config", "virtual:7bb7a5cfa845504ba552e3a8413ab297f4ccf41e9b6844ab75d64796b93b7e59f2e184a3bcd68afcee351aa9e87472b275e0827e76fe612aac0c5dd9898ab1a3#npm:0.74.85"],\
             ["@react-native/metro-config", "npm:0.74.85"],\
@@ -11207,6 +11335,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["shallow-clone", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "./.yarn/cache/shallow-clone-npm-1.0.0-936fb13dbd-d4fd93b82d.zip/node_modules/shallow-clone/",\
+          "packageDependencies": [\
+            ["shallow-clone", "npm:1.0.0"],\
+            ["is-extendable", "npm:0.1.1"],\
+            ["kind-of", "npm:5.1.0"],\
+            ["mixin-object", "npm:2.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:3.0.1", {\
           "packageLocation": "./.yarn/cache/shallow-clone-npm-3.0.1-dab5873d0d-39b3dd9630.zip/node_modules/shallow-clone/",\
           "packageDependencies": [\
@@ -11634,6 +11772,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/sudo-prompt-npm-9.2.1-673cc9fe7b-50a29eec2f.zip/node_modules/sudo-prompt/",\
           "packageDependencies": [\
             ["sudo-prompt", "npm:9.2.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["superstruct", [\
+        ["npm:0.6.2", {\
+          "packageLocation": "./.yarn/cache/superstruct-npm-0.6.2-1a9a85e381-f95e4049be.zip/node_modules/superstruct/",\
+          "packageDependencies": [\
+            ["superstruct", "npm:0.6.2"],\
+            ["clone-deep", "npm:2.0.2"],\
+            ["kind-of", "npm:6.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\

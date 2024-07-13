@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "533146097091",
+    "project_id": "webcloudpower",
+    "storage_bucket": "webcloudpower.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533146097091:android:5946c40ba671f81c391976",
+        "android_client_info": {
+          "package_name": "com.pushnotifications"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEsD-vjRlHuvv9WY07JuklDLFamRdnQ18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533146097091:android:aa24962f1f21623f391976",
+        "android_client_info": {
+          "package_name": "com.reactnativefirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEsD-vjRlHuvv9WY07JuklDLFamRdnQ18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533146097091:android:f57ccc5f36b0b495391976",
+        "android_client_info": {
+          "package_name": "react.magicbell.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEsD-vjRlHuvv9WY07JuklDLFamRdnQ18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
